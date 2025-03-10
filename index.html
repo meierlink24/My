@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/hjMdn8Rg/nerd.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="https://i.postimg.cc/NfM4PFqZ/IMG-20240511-190850-30-ai-brush-removebg-up0uoxc.png" alt="avatar" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Richard Hanrick">Stefan Stevanovic</h1>
+                    <p class="title">Aspiring Computer Scientist | Software Developer</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:richard@example.com" class="contact-link">stefanstevanovic2025@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+12133522795" class="contact-link">+381 66 531 3228</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="1982-06-23">August 24, 2025</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Boljevac, Serbia</address>
+                        </div>
+                    </li>
+                </ul>
+
+                
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>Hi, I'm a final-year high school student, soon to be a computer science major. I have a strong passion for coding and problem-solving. I don't have a specific niche—I simply enjoy coding and problem-solving. I often dedicate my time to learning new environments, languages, and technologies.</p>
+                    <p> My work right now is more focused on web development. I have been working as a freelancer for the past few months and have built multiple websites. I wouldn’t say I’m the best web developer anyone could hire—far from it—but I believe my understanding, open-mindedness, and goal-focused dedication allow me to deliver good products. </p>
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">What I'm doing</h3>
+
+                    <ul class="service-list">
+                  
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/FKYT6KMT/web-programming.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web development</h4>
+                                <p class="service-item-text">I create websites that are both professional and creative, ensuring they align perfectly with my client's vision. Their desires guide my approach, serving as both my goal and my set of rules, allowing me to deliver tailored, high-quality results.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/3rXnVVqQ/machine.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Low-Level programming</h4>
+                                <p class="service-item-text">I have a strong passion for low-level programming. I've realized that I enjoy it the most because I can "talk" to the hardware. I'm currently working on creating my own operating system as a side project called 'Jarvis.' As part of this, I'm learning about kernel development, bootloader development, and other related topics..</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/VkpqdWhF/console.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Game Development</h4>
+                                <p class="service-item-text">I've started learning game development out of my passion for playing video games. I'm currently working on a 2D game engine written in Rust—so wish me luck! :)</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+               
+
+
+                <section class="clients">
+                    <h3 class="h3 clients-title">Clients</h3>
+
+                    <ul class="clients-list has-scrollbar">
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/HnQV6QWb/Rad.jpg" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/7LfhFvYH/453052243-796476255809597-2012303933913442938-n.jpg" alt="logo"></a>
+                        </li>
+
+                       
+                    </ul>
+                </section>
+
+            </article>
+            
+            <article class="resume " data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Mathematical Grammar School</h4>
+                            <span>2021 - 2025</span>
+                            <p class="timeline-text">There, I learned advanced mathematical concepts, programming fundamentals, and the basics of graphic design. I have the highest possible GPA (5.00), so I would say this school inspired me to pursue a career in computer science. </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">University of Computer Engineering </h4>
+                            <span>2025 - x</span>
+                           
+                        </li>
+
+                       
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Freelance Web Developer</h4>
+                            <span>2023 - Present</span>
+                            <p class="timeline-text"> I've developed multiple websites for my clients, ranging from blogs to e-commerce web stores. I work closely with each client, listening to their ideas and bringing them to life. I believe that’s the most important aspect of my work as a freelance web developer.</p>
+                        </li>
+
+                      
+                    </ol>
+                </section>
+
+                <section class="skill">
+                    <h3 class="h3 skills-title">My Skills</h3>
+
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Web Development</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Web Design</h5>
+                                <data value="70">50%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 70%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Low-level programming</h5>
+                                <data value="90">40%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </li>
+
+                        
+                    </ul>
+                </section>
+            </article>
+
+            <article class="portfolio " data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+                        <li class="filter-item"><button data-filter-btn>Web Development</button></li>
+                        <li class="filter-item"><button data-filter-btn>Low-level programming</button></li>
+                        <li class="filter-item"><button data-filter-btn>Experiments</button></li>
+                        <li class="filter-item"><button data-filter-btn>Game Dev</button></li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select " data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>All</button></li>
+                            <li class="select-item"><button data-select-item>Web Development</button></li>
+                            <li class="select-item"><button data-select-item>Low-level programming</button></li>
+                            <li class="select-item"><button data-select-item>Experiments</button></li>
+                            <li class="select-item"><button data-select-item>Game Dev</button></li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-category="Game Dev">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/6QgP0ZmW/Screenshot-from-2025-03-10-13-12-54.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">GWA - GAME ENGINE</h3>
+                                <p class="project-category">Game Dev</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="Low-level programming">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/Prbk5SFm/gatto.png" alt="orizon" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Gatto - text editor</h3>
+                                <p class="project-category">Low-level programming</p>
+                            </a>
+                        </li>
+               
+
+                    </ul>
+                </section>
+            </article>
+
+            
+
+            
+        </div>
+    </main>
+
+    <script src="/src/index.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
